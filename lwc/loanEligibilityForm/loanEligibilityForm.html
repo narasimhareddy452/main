@@ -1,0 +1,49 @@
+<template>
+    <lightning-card title="Loan Eligibility Calculator">
+        <div class="slds-p-around_medium">
+
+            <!-- Income Type -->
+            <lightning-combobox
+                name="incomeType"
+                label="Income Type"
+                value={incomeType}
+                options={incomeTypeOptions}
+                onchange={handleIncomeTypeChange}>
+            </lightning-combobox>
+
+            <!-- Salary fields (Dynamic) -->
+            <template if:true={isSalaried}>
+                <lightning-input label="Monthly Salary" type="number" value={monthlyIncome} onchange={handleInput}></lightning-input>
+                <lightning-input label="Employer Name" type="text"></lightning-input>
+                <lightning-input label="PF Contribution" type="number"></lightning-input>
+            </template>
+
+            <!-- Business fields (Dynamic) -->
+            <template if:true={isSelfEmployed}>
+                <lightning-input label="Annual Revenue" type="number" value={annualIncome} onchange={handleInput}></lightning-input>
+                <lightning-input label="Business Type" type="text"></lightning-input>
+                <lightning-input label="Business Registration Number" type="text"></lightning-input>
+            </template>
+
+            <!-- Credit Score -->
+            <lightning-input label="Credit Score" type="number" value={creditScore} onchange={handleInput}></lightning-input>
+
+            <lightning-button class="slds-m-top_small" variant="brand" label="Calculate Eligibility" onclick={calculate}></lightning-button>
+
+            <!-- Result -->
+            <template if:true={eligibleAmount}>
+                <div class="slds-m-top_medium slds-text-heading_medium">
+                    Eligible Loan Amount: ₹ {eligibleAmount}
+                </div>
+            </template>
+
+            <!-- Warning -->
+            <template if:true={showCreditWarning}>
+                <div class="slds-text-color_error slds-m-top_small">
+                    ⚠ Your credit score is low. Eligibility may be reduced.
+                </div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

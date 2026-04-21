@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>https://narasimhareddyp-dev-ed.my.salesforce.com</callbackUrl>
+    <consumerKey>3MVG9n_HvETGhr3CED3q_iXqWGOcAcRbVC9dosux2fIJqy2Urr4N2M1If11lnXqtGg0C5eKfhavPN9kCvYhDB</consumerKey>
+    <externalClientApplication>Savynt</externalClientApplication>
+    <idTokenConfig>
+        <idTokenIncludeAttributes>false</idTokenIncludeAttributes>
+        <idTokenIncludeCustomPermissions>false</idTokenIncludeCustomPermissions>
+        <idTokenIncludeStandardClaims>false</idTokenIncludeStandardClaims>
+        <idTokenValidityInMinutes>2</idTokenValidityInMinutes>
+    </idTokenConfig>
+    <isClientCredentialsFlowEnabled>false</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>true</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>true</isCodeCredPostOnly>
+    <isConsumerSecretOptional>true</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>true</isDeviceFlowEnabled>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+    <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+    <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+    <label>Savynt_glbloauth</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>

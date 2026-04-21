@@ -1,0 +1,17 @@
+.THIS {
+    background-color:pink;
+    padding-top:12px;
+}
+h1.THIS{
+    font-size:20px;
+    font-weight:bold;
+    }
+.THIS.red{
+    background-color:lightgreen;
+}
+.THIS.green{
+    background-color:green;
+}
+.THIS.orange{
+    background-color:orange;
+}

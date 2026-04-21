@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:attribute name="empName" type="String"/>	
+    <aura:attribute name="salary" type="Decimal"/>
+    <aura:attribute name="exp" type="Decimal"/>
+    <aura:attribute name="bonus" type="Decimal"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.invoke}"/>
+    <!--<lightning:input type="String" value="{!v.empName}" label="Enter a Name" required="true"/>
+    <lightning:input type="Decimal" value="{!v.salary}" label="Enter a Salary" required="true"/>
+    <lightning:input type="Decimal" value="{!v.exp}" label="Enter your Exp " required="true"/>    -->    
+    <div>  Name   :{!v.empName}<br/>
+           Salary :{!v.salary}<br/>
+           Exp    :{!v.exp}<br/>
+           Bonus  :{!v.bonus}
+    </div> 
+    
+</aura:component>

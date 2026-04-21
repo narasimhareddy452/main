@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="SearchContacts By WireProperty" icon-name="custom:custom57">
+        <div class="slds-m-around_medium">
+        <lightning-input type="search" onchange={handleChange} label="Search" class="slds-m-bottom_small">
+        </lightning-input>
+        <template if:true={contacts.data}>
+            <template for:each={contacts.data} for:item="contact">
+                <lightning-layout vertical-align="center" key={contact.id}>
+                    <li>
+                        {contact.FirstName}
+                        {contact.LastName}
+                        {contact.Phone}
+                        {contact.Email}
+                    </li>
+                </lightning-layout>
+            </template>
+        </template>
+    </div>
+    </lightning-card>
+</template>

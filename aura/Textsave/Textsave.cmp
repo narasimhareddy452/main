@@ -1,0 +1,7 @@
+<aura:component>
+    
+        <lightning:input name="FirstName" type="string" label="Enter FirstName"/>
+        <lightning:input name="LastName" type="string" label="Enter LastName"/>
+
+        <lightning:button value="Submit" label="Submit" onclick="{!c.doclick}"/>
+</aura:component>

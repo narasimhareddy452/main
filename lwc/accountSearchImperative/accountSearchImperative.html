@@ -1,0 +1,13 @@
+<!-- accountSearchImperative.html -->
+<template>
+    <lightning-input label="Enter Account Name" onchange={handleInputChange}></lightning-input>
+    <lightning-button label="Search" onclick={handleSearch}></lightning-button>
+
+    <template if:true={accounts}>
+        <lightning-card title="Accounts Found">
+            <template for:each={accounts} for:item="acc">
+                <p key={acc.Id}>{acc.Name} - {acc.Phone}</p>
+            </template>
+        </lightning-card>
+    </template>
+</template>

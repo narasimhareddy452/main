@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="ContactController">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="contacts"	type="Contact[]"/>
+     <ul>
+      <aura:iteration items="{!v.contacts}" var="con" indexVar="index">
+         <li type="dice">Contact Number : {!con.ContactNumber}</li>
+         <ul>
+            <aura:iteration items="{!con.Name}" var="name" indexVar="index">
+               <li>Contact {!index + 1} Name : {!con.Name}</li>
+                <ui:inputnumber aura:id="num" required="true" class="field"></ui:inputnumber>
+            </aura:iteration>
+         </ul>
+         <hr/>
+      </aura:iteration>
+   </ul>
+    <lightning:button label="submit" onclick="{!c.submit}"></lightning:button>
+</aura:component>

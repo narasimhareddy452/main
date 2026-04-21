@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>travel</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Its all about places and trip details in the world</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>JourneyNest</label>
+    <navType>Standard</navType>
+    <tabs>standard-JourneyHome</tabs>
+    <tabs>LDT</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>Travel_Request__c</tabs>
+    <tabs>standard-Expense</tabs>
+    <tabs>Booking__c</tabs>
+    <tabs>Trip__c</tabs>
+    <tabs>Flight__c</tabs>
+    <tabs>Hotel__c</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>Tour_Package__c</tabs>
+    <tabs>Tour_Template__c</tabs>
+    <tabs>Department__c</tabs>
+    <tabs>Review__c</tabs>
+    <tabs>Activity__c</tabs>
+    <tabs>Destination__c</tabs>
+    <tabs>Itinerary__c</tabs>
+    <tabs>Agent__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Tourism_Travel_UtilityBar</utilityBar>
+</CustomApplication>

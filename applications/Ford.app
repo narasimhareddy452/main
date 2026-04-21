@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>LoanEligibilityCalculator</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>ford1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>To deliver a connected, intelligent, and personalized automotive experience for the customers, dealers, and service teams by integrating vehicle data, customer interactions, and service operations into a unified platform</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Ford</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>NNRSolutions</tabs>
+    <tabs>Data_Quality_Dashboard</tabs>
+    <tabs>Opportunity_Data_Quality_Dashboard</tabs>
+    <tabs>Test_Drive_Scheduler</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>FVehicles__c</tabs>
+    <tabs>ServiceRequest__c</tabs>
+    <tabs>TestDrive__c</tabs>
+    <tabs>ServiceCentre__c</tabs>
+    <tabs>PurchaseAgreement__c</tabs>
+    <tabs>warranty__c</tabs>
+    <tabs>Insurance__c</tabs>
+    <tabs>Feedback__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Ford_UtilityBar</utilityBar>
+</CustomApplication>

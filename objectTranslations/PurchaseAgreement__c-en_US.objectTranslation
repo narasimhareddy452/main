@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PurchaseAgreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PurchaseAgreements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agreement Date --></label>
+        <name>Agreement_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- PurchaseAgreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FVehicles --></label>
+        <name>FVehicles__c</name>
+        <relationshipLabel><!-- PurchaseAgreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Final Amount --></label>
+        <name>Final_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- PurchaseAgreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease</masterLabel>
+            <translation><!-- Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation><!-- Loan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>Terms__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

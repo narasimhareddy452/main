@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Booking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bookings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>Agent__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BookingType --></label>
+        <name>BookingType__c</name>
+        <picklistValues>
+            <masterLabel>Car Rental</masterLabel>
+            <translation><!-- Car Rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight</masterLabel>
+            <translation><!-- Flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ConfirmationNumber --></label>
+        <name>ConfirmationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndDate --></label>
+        <name>EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>Provider__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Review --></label>
+        <name>Review__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- StartDate --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tour Package --></label>
+        <name>Tour_Package__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Travel Request --></label>
+        <name>Travel_Request__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Trip --></label>
+        <name>Trip__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<aura:component >
+    <h1>Hey Goodmorning My Details are below</h1>
+    <div class="red">Name: Narasimha</div>
+    <div class="green">Age : 30</div>
+    <div class="orange">Loc : Bangalore</div>
+</aura:component>

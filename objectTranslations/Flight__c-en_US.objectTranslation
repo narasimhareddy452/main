@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flight</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Flights</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airline --></label>
+        <name>Airline__c</name>
+    </fields>
+    <fields>
+        <label><!-- ArrivalAirport --></label>
+        <name>ArrivalAirport__c</name>
+    </fields>
+    <fields>
+        <label><!-- ArrivalDateTime --></label>
+        <name>ArrivalDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking --></label>
+        <name>Booking__c</name>
+        <relationshipLabel><!-- Flights --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DepartureAirport --></label>
+        <name>DepartureAirport__c</name>
+    </fields>
+    <fields>
+        <label><!-- DepartureDateTime --></label>
+        <name>DepartureDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- FlightNumber --></label>
+        <name>FlightNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trip --></label>
+        <name>Trip__c</name>
+        <relationshipLabel><!-- Flights --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

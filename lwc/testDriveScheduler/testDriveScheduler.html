@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Schedule Test Drive">
+        <div class="slds-p-around_medium">
+            <lightning-combobox label="Vehicle" value={vehicleId} options={vehicleOptions} onchange={handleVehicleChange}></lightning-combobox>
+            <lightning-combobox label="Customer" value={customerId} options={customerOptions} onchange={handleCustomerChange}></lightning-combobox>
+            <lightning-combobox label="Sales Rep" value={salesRepId} options={salesRepOptions} onchange={handleSalesRepChange}></lightning-combobox>
+            <lightning-input type="datetime" label="Scheduled Date" value={scheduledDate} onchange={handleDateChange}></lightning-input>
+            <lightning-combobox label="Status" value={status} options={statusOptions} onchange={handleStatusChange}></lightning-combobox>
+            <lightning-button label="Submit" onclick={handleSubmit} variant="brand"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

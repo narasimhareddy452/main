@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FVehicles</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FVehicles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bluetooth --></label>
+        <name>Bluetooth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Body Type --></label>
+        <name>Body_Type__c</name>
+        <picklistValues>
+            <masterLabel>Hatchback</masterLabel>
+            <translation><!-- Hatchback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUV</masterLabel>
+            <translation><!-- SUV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sedan</masterLabel>
+            <translation><!-- Sedan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dark Black</masterLabel>
+            <translation><!-- Dark Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grey</masterLabel>
+            <translation><!-- Grey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Engine Size --></label>
+        <name>Engine_Size__c</name>
+        <picklistValues>
+            <masterLabel>15kmph?l</masterLabel>
+            <translation><!-- 15kmph?l --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18kmph/L</masterLabel>
+            <translation><!-- 18kmph/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25kmph/L</masterLabel>
+            <translation><!-- 25kmph/L --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fuel Type --></label>
+        <name>Fuel_Type__c</name>
+        <picklistValues>
+            <masterLabel>Diesel</masterLabel>
+            <translation><!-- Diesel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electric</masterLabel>
+            <translation><!-- Electric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybrid</masterLabel>
+            <translation><!-- Hybrid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petrol</masterLabel>
+            <translation><!-- Petrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Heated Seats --></label>
+        <name>Heated_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Status --></label>
+        <name>Inventory_Status__c</name>
+        <picklistValues>
+            <masterLabel>Demo</masterLabel>
+            <translation><!-- Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Stock</masterLabel>
+            <translation><!-- In Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make --></label>
+        <name>Make__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mileage --></label>
+        <name>Mileage__c</name>
+        <picklistValues>
+            <masterLabel>15kmph/L</masterLabel>
+            <translation><!-- 15kmph/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18kmph/L</masterLabel>
+            <translation><!-- 18kmph/L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22kmph/L</masterLabel>
+            <translation><!-- 22kmph/L --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>Model__c</name>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation><!-- X --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z</masterLabel>
+            <translation><!-- Z --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Navigation System --></label>
+        <name>Navigation_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parking Sensors --></label>
+        <name>Parking_Sensors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserved</masterLabel>
+            <translation><!-- Reserved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold</masterLabel>
+            <translation><!-- Sold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sunroof --></label>
+        <name>Sunroof__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transmission --></label>
+        <name>Transmission__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VIN --></label>
+        <name>VIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

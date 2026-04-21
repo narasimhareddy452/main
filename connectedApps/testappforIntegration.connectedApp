@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>narasimhareddy452@gmail.com</contactEmail>
+    <description>Test integration with salesforce org</description>
+    <label>testappforIntegration</label>
+    <oauthConfig>
+        <callbackUrl>https://jainism-dev-ed.develop.my.salesforce.com/services/authcallback/test</callbackUrl>
+        <consumerKey>3MVG9n_HvETGhr3CED3q_iXqWGO8YD_x3ZzfcN2o4tlZ713oCX5ySdBXPWJA9lLd.vS3B7vYGBIG4pTy28gzr</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <startUrl>https://jainism-dev-ed.develop.lightning.force.com/lightning/o/Account/list?filterName=00B5j00000TC0UNEA1</startUrl>
+</ConnectedApp>

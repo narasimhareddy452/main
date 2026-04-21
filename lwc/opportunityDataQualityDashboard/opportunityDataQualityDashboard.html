@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Opportunity Data Quality Dashboard">
+        <div class="slds-m-around_medium">
+            <lightning-button-group>
+                <lightning-button label="Inactive Owners" value="inactiveOwners" onclick={handleTabChange}></lightning-button>
+                <lightning-button label="Inactive Picklist" value="inactivePicklist" onclick={handleTabChange}></lightning-button>
+                <lightning-button label="Duplicates" value="duplicates" onclick={handleTabChange}></lightning-button>
+                <lightning-button label="Missing Fields" value="missingFields" onclick={handleTabChange}></lightning-button>
+            </lightning-button-group>
+
+            <template if:true={currentData}>
+                <p class="slds-m-top_medium">Total Records: <strong>{currentData.count}</strong></p>
+                <lightning-datatable
+                    key-field="Id"
+                    data={currentData.records}
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+        </div>
+    </lightning-card>
+</template>

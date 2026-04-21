@@ -1,0 +1,19 @@
+<template>
+  <lightning-card title="Search Contacts by Imperative" iconname="custom:custom57">
+
+		<div class="slds-m-around_medium">
+			<lightning-input type="search" onchange={handleKeyChange} class="slds-m-bottom_small" label="Search"></lightning-input>
+			<template if:true={contacts}>
+				<template for:each={contacts} for:item="contact">
+					<lightning-layout vertical-align="center" key={contact.id}>
+						<li>
+							{contact.FirstName}
+							{contact.LastName}
+              {contact.Phone}
+						</li>
+					</lightning-layout>
+				</template>
+			</template>
+		</div>
+	</lightning-card>
+</template>
